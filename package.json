@@ -1,0 +1,19 @@
+{
+  "name": "ai-pro-landing-page",
+  "version": "1.0.0",
+  "description": "דף נחיתה לסדנת בינה מלאכותית למנהלי HR - רועי טל",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "build-prod": "tailwindcss -i ./css/input.css -o ./css/style.css --minify",
+    "dev": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  },
+  "keywords": ["AI", "HR", "workshop", "landing-page", "hebrew", "rtl"],
+  "author": "רועי טל - AI פשוט בעולם חכם",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
+  }
+}
